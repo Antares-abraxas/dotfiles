@@ -1,0 +1,125 @@
+[[mgr.prepend_keymap]]
+on   = [ "m" ]
+run  = "plugin mount"
+desc = "Монтирование дисков и флешек"
+
+[[mgr.prepend_keymap]]
+on   = [ "c", "m" ]
+run  = "plugin chmod"
+desc = "Изменить права доступа (chmod)"
+
+[[mgr.prepend_keymap]]
+on   = [ "u" ]
+run  = "plugin what-size"
+desc = "Рассчитать точный размер файлов/папки"
+
+[[mgr.prepend_keymap]]
+on   = [ "C" ]
+run  = "plugin convert"
+desc = "Конвертировать изображение"
+
+[[mgr.prepend_keymap]]
+on   = [ "<C-a>" ]
+run  = "plugin archive"
+desc = "Сжать выделенные файлы в архив"
+
+[[mgr.prepend_keymap]]
+on   = [ "d", "f" ]
+run  = "plugin diff"
+desc = "Сравнить выделенные файлы (diff)"
+
+[[mgr.prepend_keymap]]
+on   = [ "T" ]
+run  = "plugin toggle-pane -- args=max-preview"
+desc = "Развернуть панель превью на весь экран"
+
+[[mgr.prepend_keymap]]
+on   = [ "F" ]
+run  = "plugin smart-filter"
+desc = "Умный фильтр файлов"
+
+[[mgr.prepend_keymap]]
+on   = [ "l" ]
+run  = "plugin smart-enter"
+desc = "Умный вход в папку или архив"
+
+[[mgr.prepend_keymap]]
+on   = [ "<Enter>" ]
+run  = "plugin smart-enter"
+desc = "Умный вход в папку или архив"
+
+[[mgr.prepend_keymap]]
+on   = [ "b", "r" ]
+run  = "plugin batch-rename-gui"
+desc = "Массовое переименование через GUI"
+
+[[mgr.prepend_keymap]]
+on   = [ "d", "u" ]
+run  = "plugin dupes"
+desc = "Поиск дубликатов в текущей папке"
+
+
+[[mgr.prepend_keymap]]
+on   = [ "m" ]
+run  = "plugin mount"
+desc = "Монтирование дисков и флешек"
+
+[[mgr.prepend_keymap]]
+on   = [ "c", "m" ]
+run  = "plugin chmod"
+desc = "Изменить права доступа (chmod)"
+
+[[mgr.prepend_keymap]]
+on   = [ "u" ]
+run  = "plugin what-size"
+desc = "Рассчитать точный размер файлов/папки"
+
+[[mgr.prepend_keymap]]
+on   = [ "C" ]
+run  = "plugin convert"
+desc = "Конвертировать изображение"
+
+[[mgr.prepend_keymap]]
+on   = [ "<C-a>" ]
+run  = "plugin archive"
+desc = "Сжать выделенные файлы в архив"
+
+[[mgr.prepend_keymap]]
+on   = [ "d", "f" ]
+run  = "plugin diff"
+desc = "Сравнить выделенные файлы (diff)"
+
+[[mgr.prepend_keymap]]
+on   = [ "T" ]
+run  = "plugin toggle-pane -- args=max-preview"
+desc = "Развернуть панель превью на весь экран"
+
+[[mgr.prepend_keymap]]
+on   = [ "F" ]
+run  = "plugin smart-filter"
+desc = "Умный фильтр файлов"
+
+[[mgr.prepend_keymap]]
+on   = [ "l" ]
+run  = "plugin smart-enter"
+desc = "Умный вход в папку или архив"
+
+[[mgr.prepend_keymap]]
+on   = [ "<Enter>" ]
+run  = "plugin smart-enter"
+desc = "Умный вход в папку или архив"
+
+[[mgr.prepend_keymap]]
+on   = [ "b", "r" ]
+run  = "plugin batch-rename-gui"
+desc = "Массовое переименование через GUI"
+
+[[mgr.prepend_keymap]]
+on   = [ "d", "u" ]
+run  = "plugin dupes"
+desc = "Поиск дубликатов в текущей папке"
+
+[[mgr.prepend_keymap]]
+on   = [ "g", "r" ]
+run  = "plugin duck-radar"
+desc = "Быстрый доступ к недавним файлам (Radar)"
